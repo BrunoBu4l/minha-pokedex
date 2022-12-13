@@ -1,0 +1,47 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6F8FC;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #FFF;
+    
+    
+}
+
+h1{
+    text-align: center;
+    color: #5237b6;
+    text-decoration: underline;
+}
+
+footer{
+    padding: 40px;
+    font-size: small;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 1rem;
+    margin: 30px;
+}
+
+/* media querry de responsividade */
+/* para tela até 992px */
+@media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
